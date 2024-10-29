@@ -1,0 +1,23 @@
+:root {
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* , *::after , *::before {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.6 ;
+    font-size: 1.6rem;
+    font-family: cursive;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
