@@ -1,20 +1,29 @@
+
 .container {
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
 }
 
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) {
+@media (min-width: 1400px) {
     .container {
-        max-width: 54rem;
+        max-width: 132rem;
     }
 }
 
-/* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        max-width: 114rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 96rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
     .container {
         max-width: 72rem;
     }
@@ -26,23 +35,8 @@
     }
 }
 
-/* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 992px) { 
+@media (max-width: 767px) {
     .container {
-        max-width: 96rem;
-    }
-}
-
-/* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1200px) {
-    .container {
-        max-width: 114rem;
-    }
-}
-
-/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1400px) {
-    .container {
-        max-width: 132rem;
+        max-width: 54rem;
     }
 }
