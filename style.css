@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Oxanium:wght@200..800&display=swap');
+
 :root {
     --zinc-700: #40404127;
     --white: #fff;
@@ -21,7 +24,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'cursive', sans-serif;
+    
 }
 
 body {
@@ -32,6 +35,10 @@ body {
     background-color: #f0f0f5;
     color: #333;
     max-width: 100%;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
