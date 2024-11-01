@@ -52,3 +52,7 @@ To view any of these projects locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/hossein-np/frontend-mentor-projects.git
+
+## Contact
+
+   - **Email:** [Contact with me](HosseinNoruzpur@outlook.com)
